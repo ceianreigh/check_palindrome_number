@@ -3,12 +3,13 @@
 # pseudocode
 
 # ask user to enter a number
-number = int(input("Enter a number: "))
+original_number = int(input("Enter a number: "))
 
 # write a message on what the user entered
-print("The original number is", number)
+print("The original number is", original_number)
 
 # reverse the given number
+number = original_number
 rev_number = 0
 while number > 0:
     remainder = number % 10
@@ -16,7 +17,7 @@ while number > 0:
     number = number // 10
 
 # check if the given number is equal to the reversed number
-if number == rev_number:
+if original_number == rev_number:
     # if yes, print True message
     print("The number is a palindrome number")
 else:
