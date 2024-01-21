@@ -3,6 +3,10 @@
 # pseudocode
 
 # ask user to enter a number
+number = int(input("Enter a number:"))
+
+# write a message on what the user entered
+print("The original number is", number)
 
 # reverse the given number
 
