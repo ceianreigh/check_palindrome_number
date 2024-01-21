@@ -19,7 +19,7 @@ while number > 0:
 # check if the given number is equal to the reversed number
 if original_number == rev_number:
     # if yes, print True message
-    print("The number is a palindrome number")
+    print("Yes. The given number is a palindrome number.")
 else:
     # else, print False message
-    print("The number is not a palindrome number")
+    print("No. The given number is not a palindrome number.")
